@@ -10,7 +10,7 @@ html, body {
 .frontName{
   padding-top: 2%;
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
@@ -28,7 +28,7 @@ html, body {
 
 .typed-out{
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	-webkit-text-stroke-width: 2.25px;
   -webkit-text-stroke-color: #247BA0;
   overflow: hidden;
@@ -94,7 +94,7 @@ html, body {
   -webkit-text-stroke-color: #247BA0;
   font-size: 30px;
   cursor:pointer;
-  color: #FFFCF9;
+  color: transparent;
   font-family: 'Barlow', sans-serif;
   text-align: right;
   padding-right: 5%;
@@ -118,7 +118,7 @@ html, body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-color: #FFFCF9;
+  background-color: transparent;
   animation: bounce 0.5s;
   animation-direction: alternate;
   animation-timing-function: cubic-bezier(.5,0.05,1,.5);
@@ -147,7 +147,7 @@ ball {
 /* about us page css */
 .aboutTitle{
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
@@ -165,12 +165,12 @@ ball {
 
 .interestsTitle{
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
-  padding-left: 8%;
+  margin-left: 12%;
 }
 
 .interestsList{
@@ -178,17 +178,29 @@ ball {
   font-weight: 400;
   color: #247BA0;
 	font-size: 250%;
-  margin-left: 6%;
   list-style-position: inside;
+}
+
+.interestsListImage{
+  display: flex;
+  justify-content: space-around;
+}
+
+.interestsImage{
+  width: 480px;
+  height: 270px;
+  border-radius: 7%;
+  background-color: #247BA0;
 }
 
 .favsTitle{
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
-  margin-right: 6%;
+  margin-right: 10.5%;
+  text-align: right;
 }
 
 .favsList{
@@ -197,16 +209,27 @@ ball {
   color: #247BA0;
 	font-size: 250%;
   list-style-position: inside;
-  margin-right: 6%;
 }
 
 .allFavs{
   text-align: right;
 }
 
+.favsListImage{
+  display: flex;
+  justify-content: space-around;
+}
+
+.favsImage{
+  width: 480px;
+  height: 270px;
+  border-radius: 7%;
+  background-color: #247BA0;
+}
+
 .currentTitle{
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
@@ -229,10 +252,37 @@ ball {
   text-align: left;
 }
 
+/*.aboutImages {
+  --b: 8px;  /* border thickness*/
+ /* --s: 60px; /* size of the corner*/
+ /* --g: 14px; /* the gap*/
+  /*--c: #EDC951; 
+  
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));
+}
+
+.aboutImages:hover {
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
+} */
+
 /* projects page css */
 .projectsTitle{
   font-family: 'Barlow', sans-serif;
-  color: #FFFCF9;
+  color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #5FB5C2;
@@ -255,7 +305,7 @@ ball {
 }
 
 .gStemTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #5FB5C2;
   font-size: 40px;
@@ -270,7 +320,7 @@ ball {
 }
 
 .knowBetterTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #C59FC9;
   font-size: 40px;
@@ -285,7 +335,7 @@ ball {
 }
 
 .eduGapTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #247BA0;
   font-size: 40px;
@@ -308,7 +358,7 @@ ball {
 }
 
 .petEdTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #247BA0;
   font-size: 40px;
@@ -323,7 +373,7 @@ ball {
 }
 
 .unSdgsTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #5FB5C2;
   font-size: 40px;
@@ -338,7 +388,7 @@ ball {
 }
 
 .stopAsianTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #C59FC9;
   font-size: 40px;
@@ -364,7 +414,7 @@ ball {
 
 
 .diverseTechTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #C59FC9;
   font-size: 40px;
@@ -379,7 +429,7 @@ ball {
 }
 
 .designYourWorldTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #247BA0;
   font-size: 40px;
@@ -394,7 +444,7 @@ ball {
 }
 
 .wordPhrasesTitle{
-  color: #FFFCF9;
+  color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #5FB5C2;
   font-size: 40px;
