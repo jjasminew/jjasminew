@@ -297,6 +297,7 @@ ball {
   display: flex;
   justify-content: space-evenly;
   font-family: 'Barlow', sans-serif;
+  padding-top: 10%;
 }
 
 .petEd{
@@ -350,6 +351,8 @@ ball {
   display: flex;
   justify-content: space-evenly;
   font-family: 'Barlow', sans-serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .diverseTech{
