@@ -170,7 +170,6 @@ ball {
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
-  margin-left: 12%;
 }
 
 .interestsList{
@@ -179,14 +178,12 @@ ball {
   color: #247BA0;
 	font-size: 250%;
   list-style-position: inside;
-}
-
-.interestsListImage{
-  display: flex;
-  justify-content: space-around;
+  padding-left: 8%;
 }
 
 .interestsImage{
+  float: right;
+  margin-right: 8%;
   width: 480px;
   height: 270px;
   border-radius: 7%;
@@ -199,8 +196,6 @@ ball {
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
-  margin-right: 10.5%;
-  text-align: right;
 }
 
 .favsList{
@@ -209,22 +204,17 @@ ball {
   color: #247BA0;
 	font-size: 250%;
   list-style-position: inside;
-}
-
-.allFavs{
+  padding-right: 8%;
   text-align: right;
 }
 
-.favsListImage{
-  display: flex;
-  justify-content: space-around;
-}
-
 .favsImage{
+  float: left;
   width: 480px;
   height: 270px;
   border-radius: 7%;
   background-color: #247BA0;
+  margin-left: 8%;
 }
 
 .currentTitle{
@@ -449,4 +439,85 @@ ball {
   -webkit-text-stroke-color: #5FB5C2;
   font-size: 40px;
   text-align: center;
+}
+
+.gStemMainTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.gStemParagraph{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 250%;
+  font-weight: 400;
+  padding-left: 8%;
+}
+
+.gStemRoleSkills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gStemRole{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  padding-left: 8%;
+}
+
+.gStemSkills{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  padding-left: 8%;
+}
+
+.gStemImage{
+  height: 400px;
+  width: 600px;
+  background-color: #247BA0;
+}
+
+.gStemAlignImage{
+  display: flex;
+  justify-content: center;
+}
+
+.gStemProcess{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.gStemToast{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.gStemBranding{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: left;
+  padding-left: 8%;
 }
