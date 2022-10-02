@@ -168,26 +168,27 @@ ball {
   color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #9c89b8;
   text-align: left;
 }
 
 .interestsList{
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  color: #247BA0;
+  color: #9c89b8;
 	font-size: 250%;
   list-style-position: inside;
   padding-left: 8%;
 }
 
 .interestsImage{
-  float: right;
-  margin-right: 8%;
-  width: 480px;
-  height: 270px;
+  top: 59%;
+  right: 8%;
+  position: absolute;
+  width: 550px;
+  height: 350px;
   border-radius: 7%;
-  background-color: #247BA0;
+  border: 8px solid #9c89b8;
 }
 
 .favsTitle{
@@ -209,12 +210,13 @@ ball {
 }
 
 .favsImage{
-  float: left;
-  width: 480px;
-  height: 270px;
+  top: 112%;
+  left: 8%;
+  position: absolute;
+  width: 550px;
+  height: 350px;
   border-radius: 7%;
   background-color: #247BA0;
-  margin-left: 8%;
 }
 
 .currentTitle{
@@ -222,7 +224,7 @@ ball {
   color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #9c89b8;
   text-align: left;
   padding-left: 8%;
   clear: left;
@@ -231,7 +233,7 @@ ball {
 .currentList{
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  color: #247BA0;
+  color: #9c89b8;
 	font-size: 250%;
   margin-left: 6%;
   list-style-position: inside;
@@ -457,11 +459,29 @@ ball {
 	font-size: 250%;
   font-weight: 400;
   padding-left: 8%;
+  padding-right: 5%;
 }
 
 .gStemRoleSkills{
   display: flex;
   justify-content: space-evenly;
+}
+
+.gStemFounder{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.gStemDeveloper{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 25%;
 }
 
 .gStemRole{
@@ -470,7 +490,7 @@ ball {
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
-  padding-left: 8%;
+  text-align: center;
 }
 
 .gStemSkills{
@@ -479,13 +499,53 @@ ball {
 	font-size: 100px;
 	-webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #247BA0;
-  padding-left: 8%;
+  text-align: center;
+}
+
+.gStemHtml{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.gStemCss{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.gStemJs{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.gStemData{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.gStemSuite{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 25%;
 }
 
 .gStemImage{
-  height: 400px;
-  width: 600px;
-  background-color: #247BA0;
+  height: 550px;
+  width: 1100px;
 }
 
 .gStemAlignImage{
@@ -494,6 +554,7 @@ ball {
 }
 
 .gStemProcess{
+  padding-top: 5%;
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
