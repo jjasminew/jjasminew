@@ -12,7 +12,7 @@ html, body {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: center;
 }
@@ -29,7 +29,7 @@ html, body {
 .typed-out{
   font-family: 'Barlow', sans-serif;
   color: transparent;
-	-webkit-text-stroke-width: 2.25px;
+	-webkit-text-stroke-width: 2.3px;
   -webkit-text-stroke-color: #247BA0;
   overflow: hidden;
   border-right: 1.75px solid #247BA0;
@@ -149,13 +149,14 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
   padding-left: 8%;
 }
 
 .aboutParagraph{
+  font-weight: 500;
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
 	font-size: 250%;
@@ -167,14 +168,14 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #9c89b8;
   text-align: left;
 }
 
 .interestsList{
   font-family: 'Barlow', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #9c89b8;
 	font-size: 250%;
   list-style-position: inside;
@@ -195,13 +196,13 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
 }
 
 .favsList{
   font-family: 'Barlow', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #247BA0;
 	font-size: 250%;
   list-style-position: inside;
@@ -223,7 +224,7 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #9c89b8;
   text-align: left;
   padding-left: 8%;
@@ -232,7 +233,7 @@ ball {
 
 .currentList{
   font-family: 'Barlow', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #9c89b8;
 	font-size: 250%;
   margin-left: 6%;
@@ -276,7 +277,7 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #5FB5C2;
   text-align: left;
   padding-left: 8%;
@@ -293,7 +294,6 @@ ball {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #5FB5C2;
 }
 
 .gStemTitle{
@@ -304,17 +304,17 @@ ball {
   text-align: center;
 }
 
-.knowBetter{
+.getHelp{
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #C59FC9;
+  background-color: #9c89b8;
 }
 
-.knowBetterTitle{
+.getHelpTitle{
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #C59FC9;
+  -webkit-text-stroke-color: #9c89b8;
   font-size: 40px;
   text-align: center;
 }
@@ -340,6 +340,7 @@ ball {
   justify-content: space-evenly;
   font-family: 'Barlow', sans-serif;
   padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .petEd{
@@ -357,14 +358,14 @@ ball {
   text-align: center;
 }
 
-.unSdgs{
+.aiBias{
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-color: #5FB5C2;
 }
 
-.unSdgsTitle{
+.aiBiasTitle{
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #5FB5C2;
@@ -372,24 +373,24 @@ ball {
   text-align: center;
 }
 
-.stopAsian{
+.codeSwitch{
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color:  #C59FC9;
+  background-color: #9c89b8;
 }
 
-.stopAsianTitle{
+.codeSwitchTitle{
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #C59FC9;
+  -webkit-text-stroke-color: #9c89b8;
   font-size: 40px;
   text-align: center;
 }
 
 
 /* third three projects css */
-.thirdGroup{
+/*.thirdGroup{
   display: flex;
   justify-content: space-evenly;
   font-family: 'Barlow', sans-serif;
@@ -401,14 +402,14 @@ ball {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #C59FC9;
+  background-color: #9c89b8;
 }
 
 
 .diverseTechTitle{
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #C59FC9;
+  -webkit-text-stroke-color: #9c89b8;
   font-size: 40px;
   text-align: center;
 }
@@ -441,13 +442,13 @@ ball {
   -webkit-text-stroke-color: #5FB5C2;
   font-size: 40px;
   text-align: center;
-}
+}*/
 
 .gStemMainTitle{
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
   padding-left: 8%;
@@ -456,8 +457,8 @@ ball {
 .gStemParagraph{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 250%;
-  font-weight: 400;
+	font-size: 200%;
+  font-weight: 500;
   padding-left: 8%;
   padding-right: 5%;
 }
@@ -470,16 +471,16 @@ ball {
 .gStemFounder{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
 }
 
 .gStemDeveloper{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
   padding-bottom: 25%;
 }
@@ -487,8 +488,8 @@ ball {
 .gStemRole{
   font-family: 'Barlow', sans-serif;
   color: transparent;
-	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: center;
 }
@@ -496,8 +497,8 @@ ball {
 .gStemSkills{
   font-family: 'Barlow', sans-serif;
   color: transparent;
-	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: center;
 }
@@ -505,40 +506,40 @@ ball {
 .gStemHtml{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
 }
 
 .gStemCss{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
 }
 
 .gStemJs{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
 }
 
 .gStemData{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
 }
 
-.gStemSuite{
+.gStemFigma{
   font-family: 'Barlow', sans-serif;
   color: #247BA0;
-	font-size: 50px;
-  font-weight: 400;
+	font-size: 30px;
+  font-weight: 500;
   text-align: center;
   padding-bottom: 25%;
 }
@@ -558,7 +559,7 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: center;
 }
@@ -567,7 +568,7 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
   padding-left: 8%;
@@ -577,7 +578,7 @@ ball {
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
   padding-left: 8%;
