@@ -449,14 +449,14 @@ ball {
   color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #5FB5C2;
   text-align: left;
   padding-left: 8%;
 }
 
 .gStemParagraph{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 200%;
   font-weight: 500;
   padding-left: 8%;
@@ -470,7 +470,7 @@ ball {
 
 .gStemFounder{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -478,7 +478,7 @@ ball {
 
 .gStemDeveloper{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -490,7 +490,7 @@ ball {
   color: transparent;
 	font-size: 80px;
 	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #5FB5C2;
   text-align: center;
 }
 
@@ -499,13 +499,13 @@ ball {
   color: transparent;
 	font-size: 80px;
 	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #5FB5C2;
   text-align: center;
 }
 
 .gStemHtml{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -513,7 +513,7 @@ ball {
 
 .gStemCss{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -521,7 +521,7 @@ ball {
 
 .gStemJs{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -529,7 +529,7 @@ ball {
 
 .gStemData{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -537,7 +537,7 @@ ball {
 
 .gStemFigma{
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #5FB5C2;
 	font-size: 30px;
   font-weight: 500;
   text-align: center;
@@ -560,7 +560,7 @@ ball {
   color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #5FB5C2;
   text-align: center;
 }
 
@@ -569,7 +569,7 @@ ball {
   color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+  -webkit-text-stroke-color: #5FB5C2;
   text-align: left;
   padding-left: 8%;
 }
@@ -579,7 +579,152 @@ ball {
   color: transparent;
 	font-size: 100px;
 	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #5FB5C2;
+  text-align: left;
+  padding-left: 8%;
+}
+
+/* code for educational gap */
+
+.eduGapMainTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
   text-align: left;
   padding-left: 8%;
 }
+
+.eduGapParagraph{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 200%;
+  font-weight: 500;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.eduGapRoleSkills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.eduGapRole{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.eduGapFounder{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.eduGapData{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.eduGapSkills{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.eduGapStudio{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.eduGapSites{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.eduGapSheets{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.eduGapImage{
+  height: 550px;
+  width: 1160px;
+}
+
+.eduGapAlignImage{
+  display: flex;
+  justify-content: center;
+}
+
+.eduGapProcess{
+  padding-top: 5%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.quad { 
+  font-family: Avenir, sans-serif; margin: 0; 
+  background-color: #121;
+}
+
+div#quad {  
+  font-size: 0; width: 60%; 
+  margin: 0 auto;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+}
+
+div#quad figure { 
+  margin: 0; width: 50%; 
+  height: auto; transition: 1s; 
+  display: inline-block; 
+  position: relative; overflow: hidden; 
+}
+
+div#quad figure:hover { cursor: pointer; z-index: 4; }
+div#quad figure img { width: 100%; height: auto;}
+div#quad figure:nth-child(1) { transform-origin: top left; }
+div#quad figure:nth-child(2) { transform-origin: top right; }
+div#quad figure:nth-child(3) { transform-origin: bottom left; margin-bottom: 10%;}
+div#quad figure:nth-child(4) { transform-origin: bottom right; margin-bottom: 10%;}
+div#quad figure figcaption { 
+  margin: 0; opacity: 0; 
+  background: rgba(0,0,0,0.3); 
+  color: #fff; padding: .3rem; 
+  font-size: 1.2rem; 
+  position: absolute; 
+  bottom: 0; width: 100%;
+	transition: 1s 1s opacity; 
+}
+
+.expanded { transform: scale(2); z-index: 5;  }
+div#quad figure.expanded figcaption { opacity: 1; }
+div.full figure:not(.expanded) { pointer-events: none; }
