@@ -444,7 +444,15 @@ ball {
   text-align: center;
 }*/
 
+.gStemAlign{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 2%;
+}
+
 .gStemMainTitle{
+  display: flex;
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
@@ -564,9 +572,56 @@ ball {
   text-align: center;
 }
 
-/* code for educational gap */
+.quad { 
+  font-family: Avenir, sans-serif; margin: 0; 
+  background-color: #121;
+}
+
+div#quad {  
+  font-size: 0; width: 60%; 
+  margin: 0 auto;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+}
+
+div#quad figure { 
+  margin: 0; width: 50%; 
+  height: auto; transition: 1s; 
+  display: inline-block; 
+  position: relative; overflow: hidden; 
+}
+
+div#quad figure:hover { cursor: pointer; z-index: 4; }
+div#quad figure img { width: 100%; height: auto;}
+div#quad figure:nth-child(1) { transform-origin: top left; }
+div#quad figure:nth-child(2) { transform-origin: top right; }
+div#quad figure:nth-child(3) { transform-origin: bottom left; margin-bottom: 10%;}
+div#quad figure:nth-child(4) { transform-origin: bottom right; margin-bottom: 10%;}
+div#quad figure figcaption { 
+  margin: 0; opacity: 0; 
+  background: rgba(0,0,0,0.3); 
+  color: #fff; padding: .3rem; 
+  font-size: 1.2rem; 
+  position: absolute; 
+  bottom: 0; width: 100%;
+	transition: 1s 1s opacity; 
+}
+
+.expanded { transform: scale(2); z-index: 5;  }
+div#quad figure.expanded figcaption { opacity: 1; }
+div.full figure:not(.expanded) { pointer-events: none; }
+
+/* code for education gap */
+
+.eduGapAlign{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 2%;
+}
 
 .eduGapMainTitle{
+  display: flex;
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
@@ -718,41 +773,31 @@ ball {
   border-radius: 50px;
 }
 
-.quad { 
-  font-family: Avenir, sans-serif; margin: 0; 
-  background-color: #121;
-}
+/* code for today i page */
 
-div#quad {  
-  font-size: 0; width: 60%; 
-  margin: 0 auto;
+.todayTitle{
   font-family: 'Barlow', sans-serif;
-  font-weight: 500;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #5FB5C2;
+  text-align: left;
+  padding-left: 8%;
 }
 
-div#quad figure { 
-  margin: 0; width: 50%; 
-  height: auto; transition: 1s; 
-  display: inline-block; 
-  position: relative; overflow: hidden; 
+.blogGroup1{
+  display: flex;
+  justify-content: space-evenly;
 }
 
-div#quad figure:hover { cursor: pointer; z-index: 4; }
-div#quad figure img { width: 100%; height: auto;}
-div#quad figure:nth-child(1) { transform-origin: top left; }
-div#quad figure:nth-child(2) { transform-origin: top right; }
-div#quad figure:nth-child(3) { transform-origin: bottom left; margin-bottom: 10%;}
-div#quad figure:nth-child(4) { transform-origin: bottom right; margin-bottom: 10%;}
-div#quad figure figcaption { 
-  margin: 0; opacity: 0; 
-  background: rgba(0,0,0,0.3); 
-  color: #fff; padding: .3rem; 
-  font-size: 1.2rem; 
-  position: absolute; 
-  bottom: 0; width: 100%;
-	transition: 1s 1s opacity; 
+.blog1{
+  background: #5FB5C2;
+  width: 560px;
+  height: 400px;
+  margin-bottom: 5%;
+  transition: transform ease-in-out 0.3s;
 }
 
-.expanded { transform: scale(2); z-index: 5;  }
-div#quad figure.expanded figcaption { opacity: 1; }
-div.full figure:not(.expanded) { pointer-events: none; }
+.blog1:hover{
+  transform: scale(1.8); 
+}
