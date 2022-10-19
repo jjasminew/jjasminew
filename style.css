@@ -217,7 +217,7 @@ ball {
   width: 550px;
   height: 350px;
   border-radius: 7%;
-  background-color: #247BA0;
+  border: 8px solid #247BA0;
 }
 
 .currentTitle{
