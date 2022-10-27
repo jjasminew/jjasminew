@@ -183,7 +183,6 @@ ball {
 }
 
 .interestsImage{
-  top: 67%;
   right: 8%;
   position: absolute;
   width: 550px;
@@ -198,6 +197,7 @@ ball {
 	font-size: 100px;
 	-webkit-text-stroke-width: 3.3px;
   -webkit-text-stroke-color: #247BA0;
+  padding-top: 5%;
 }
 
 .favsList{
@@ -212,7 +212,6 @@ ball {
 
 .favsImage{
   position: absolute;
-  top: 125%;
   left: 8%;
   width: 550px;
   height: 350px;
@@ -229,6 +228,7 @@ ball {
   text-align: left;
   padding-left: 8%;
   clear: left;
+  padding-top: 5%;
 }
 
 .currentList{
