@@ -183,7 +183,7 @@ ball {
 }
 
 .interestsImage{
-  right: 8%;
+  right: 6%;
   position: absolute;
   width: 550px;
   height: 350px;
@@ -212,7 +212,7 @@ ball {
 
 .favsImage{
   position: absolute;
-  left: 8%;
+  left: 6%;
   width: 550px;
   height: 350px;
   border-radius: 7%;
