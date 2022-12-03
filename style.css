@@ -774,7 +774,6 @@ div.full figure:not(.expanded) { pointer-events: none; }
 }
 
 /* code for today i page */
-
 .todayTitle{
   font-family: 'Barlow', sans-serif;
   color: transparent;
@@ -800,4 +799,78 @@ div.full figure:not(.expanded) { pointer-events: none; }
 
 .blog1:hover{
   transform: scale(1.8); 
+}
+
+/* code for name and identity page */
+.identityTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.jarunun{
+  padding-left: 8%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 90px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+}
+
+.jarununMeaning{
+  padding-left: 8%;
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 32px;
+  font-weight: 500;
+}
+
+.jasmine{
+  padding-left: 8%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 90px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+}
+
+.jasmineMeaning{
+  padding-left: 8%;
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 32px;
+  font-weight: 500;
+}
+
+.wongphatarakul{
+  padding-left: 8%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 90px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+}
+
+.wongphatarakulMeaning{
+  padding-left: 8%;
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 32px;
+  font-weight: 500;
+}
+
+[slide-in-from] {
+  opacity: 0;
+  transform: translateY(var(--translateY,0)) translateX(var(--translateX, 0));
+  animation: slideInFrom var(--sif-duration, 800ms) var(--sif-timing, ease-out) var(--sif-delay, 0ms) forwards;
+}
+
+[slide-in-from $= "left"] {--translateX: -100% }
+
+@keyframes slideInFrom{ 
+  to {transform: unset; opacity: unset}
 }
