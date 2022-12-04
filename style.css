@@ -611,6 +611,174 @@ div#quad figure figcaption {
 div#quad figure.expanded figcaption { opacity: 1; }
 div.full figure:not(.expanded) { pointer-events: none; }
 
+/* code for are you there */
+
+.thereAlign{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 2%;
+}
+
+.thereTitle{
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.thereParagraph{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 200%;
+  font-weight: 500;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.thereRoleSkills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.thereFounder{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.thereDeveloper{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.thereRole{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.thereSkills{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.thereHtml{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.thereCss{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.thereJs{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.thereFigma{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.thereImage{
+  height: 800px;
+  width: 1420px;
+}
+
+.thereAlignImage{
+  display: flex;
+  justify-content: center;
+}
+
+.thereProcess{
+  padding-top: 5%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.thereSlideAlign{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.thereSlideTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #FFFCF9;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #9c89b8;
+  border-radius: 50px;
+}
+
+.thereSlideAlign2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.thereSlideTitle2{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #FFFCF9;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #9c89b8;
+  border-radius: 50px;
+}
+
 /* code for education gap */
 
 .eduGapAlign{
@@ -802,7 +970,7 @@ div.full figure:not(.expanded) { pointer-events: none; }
 }
 
 /* code for name and identity page */
-.identityTitle{
+.nameTitle{
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
@@ -812,19 +980,30 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-left: 8%;
 }
 
+
+.identityTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: left;
+  padding-left: 8%;
+}
+
 .jarunun{
   padding-left: 8%;
   font-family: 'Barlow', sans-serif;
   color: transparent;
-	font-size: 90px;
-	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+	font-size: 65px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #9c89b8;
 }
 
 .jarununMeaning{
   padding-left: 8%;
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #9c89b8;
 	font-size: 32px;
   font-weight: 500;
 }
@@ -833,15 +1012,15 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-left: 8%;
   font-family: 'Barlow', sans-serif;
   color: transparent;
-	font-size: 90px;
-	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+	font-size: 65px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #9c89b8;
 }
 
 .jasmineMeaning{
   padding-left: 8%;
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #9c89b8;
 	font-size: 32px;
   font-weight: 500;
 }
@@ -850,15 +1029,15 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-left: 8%;
   font-family: 'Barlow', sans-serif;
   color: transparent;
-	font-size: 90px;
-	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
+	font-size: 65px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #9c89b8;
 }
 
 .wongphatarakulMeaning{
   padding-left: 8%;
   font-family: 'Barlow', sans-serif;
-  color: #247BA0;
+  color: #9c89b8;
 	font-size: 32px;
   font-weight: 500;
 }
