@@ -343,14 +343,14 @@ ball {
   padding-bottom: 10%;
 }
 
-.petEd{
+.woman{
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-color: #247BA0;
 }
 
-.petEdTitle{
+.womanTitle{
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #247BA0;
@@ -373,14 +373,14 @@ ball {
   text-align: center;
 }
 
-.codeSwitch{
+.petSmarter{
   width: 300px;
   height: 300px;
   border-radius: 50%;
   background-color: #9c89b8;
 }
 
-.codeSwitchTitle{
+.petSmarterTitle{
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #9c89b8;
@@ -952,21 +952,62 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-left: 8%;
 }
 
-.blogGroup1{
+.group1{
   display: flex;
   justify-content: space-evenly;
 }
 
-.blog1{
-  background: #5FB5C2;
-  width: 560px;
-  height: 400px;
-  margin-bottom: 5%;
-  transition: transform ease-in-out 0.3s;
+.group2{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.blog1:hover{
-  transform: scale(1.8); 
+.todayContainer {
+  position: relative;
+}
+
+.todayImage {
+  display: block;
+  width: 280px;
+  height: 250px;
+  border-radius: 7%;
+  border: 7px solid #5FB5C2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 280px;
+  height: 250px;
+  border-radius: 7%;
+  border: 7px solid #5FB5C2;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5FB5C2;
+}
+
+.todayContainer:hover .overlay {
+  opacity: 1;
+}
+
+.todayWords {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* code for name and identity page */
