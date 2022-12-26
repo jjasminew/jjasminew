@@ -959,9 +959,30 @@ div.full figure:not(.expanded) { pointer-events: none; }
 
 .group2{
   padding-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group3{
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.group4{
+  padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
   justify-content: space-evenly;
+}
+
+.todaySubTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #5FB5C2;
+  font-size: 40px;
+  text-align: center;
 }
 
 .todayContainer {
@@ -970,7 +991,7 @@ div.full figure:not(.expanded) { pointer-events: none; }
 
 .todayImage {
   display: block;
-  width: 280px;
+  width: 270px;
   height: 250px;
   border-radius: 7%;
   border: 7px solid #5FB5C2;
@@ -982,7 +1003,7 @@ div.full figure:not(.expanded) { pointer-events: none; }
   bottom: 0;
   left: 0;
   right: 0;
-  width: 280px;
+  width: 270px;
   height: 250px;
   border-radius: 7%;
   border: 7px solid #5FB5C2;
@@ -998,7 +1019,7 @@ div.full figure:not(.expanded) { pointer-events: none; }
 .todayWords {
   color: white;
   font-family: 'Barlow', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 25px;
   position: absolute;
