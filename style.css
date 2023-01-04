@@ -941,6 +941,369 @@ div.full figure:not(.expanded) { pointer-events: none; }
   border-radius: 50px;
 }
 
+/* code for as a woman page */
+
+.womanAlign{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 2%;
+}
+
+.woman1Title{
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.womanParagraph{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 200%;
+  font-weight: 500;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.womanRoleSkills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.womanFounder{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.womanDeveloper{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.womanRole{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.womanSkills{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.womanHtml{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.womanJs{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.womanCamera{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.womanVideo{
+  font-family: 'Barlow', sans-serif;
+  color: #247BA0;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.womanImage{
+  height: 800px;
+  width: 1480px;
+}
+
+.womanAlignImage{
+  display: flex;
+  justify-content: center;
+}
+
+.womanProcess{
+  padding-top: 5%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #247BA0;
+  text-align: center;
+}
+
+.womanSlideAlign{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.womanProcessContent{
+  height: 550px;
+  width: 760px;
+}
+
+.womanSlideTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #FFFCF9;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #247BA0;
+  border-radius: 50px;
+}
+
+.womanSlide2Align{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.womanSlide2Title{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #FFFCF9;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #247BA0;
+  border-radius: 50px;
+}
+
+/* code for pet smarter page */ 
+
+.petAlign{
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 2%;
+}
+
+.petTitle{
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.petParagraph{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 200%;
+  font-weight: 500;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.petRoleSkills{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.petLead{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.petDeveloper{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.petCreator{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.petRole{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.petSkills{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.petWix{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.petProcreate{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.petMedia{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.petInstallationTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.petImage{
+  height: 750px;
+  width: 1140px;
+}
+
+.petCaption{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 200%;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+.petAlignImage{
+  display: flex;
+  justify-content: center;
+}
+
+.petProcess{
+  padding-top: 5%;
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 100px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
+.petSlideAlign{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.petProcessContent{
+  height: 495px;
+  width: 750px;
+}
+
+.petSlideTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #FFFCF9;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #9c89b8;
+  border-radius: 50px;
+}
+
+.petSlide2Align{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.petSlide2Title{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #FFFCF9;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #9c89b8;
+  border-radius: 50px;
+}
+
 /* code for today i page */
 .todayTitle{
   font-family: 'Barlow', sans-serif;
