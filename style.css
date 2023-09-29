@@ -1426,8 +1426,8 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-bottom: 2%;
 }
 
-/* code for name and identity page */
-.nameTitle{
+/* code for portfolio page */
+.portfolioTitle{
   font-family: 'Barlow', sans-serif;
   color: transparent;
 	font-size: 100px;
@@ -1437,76 +1437,20 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-left: 8%;
 }
 
-
-.identityTitle{
-  font-family: 'Barlow', sans-serif;
-  color: transparent;
-	font-size: 100px;
-	-webkit-text-stroke-width: 3.3px;
-  -webkit-text-stroke-color: #247BA0;
-  text-align: left;
-  padding-left: 8%;
-}
-
-.jarunun{
-  padding-left: 8%;
-  font-family: 'Barlow', sans-serif;
-  color: transparent;
-	font-size: 65px;
-	-webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: #9c89b8;
-}
-
-.jarununMeaning{
-  padding-left: 8%;
+.portfolioParagraph{
   font-family: 'Barlow', sans-serif;
   color: #9c89b8;
-	font-size: 32px;
+	font-size: 200%;
   font-weight: 500;
-}
-
-.jasmine{
   padding-left: 8%;
-  font-family: 'Barlow', sans-serif;
-  color: transparent;
-	font-size: 65px;
-	-webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: #9c89b8;
+  padding-right: 5%;
 }
 
-.jasmineMeaning{
-  padding-left: 8%;
-  font-family: 'Barlow', sans-serif;
-  color: #9c89b8;
-	font-size: 32px;
-  font-weight: 500;
+.portfolioAlign{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
-.wongphatarakul{
-  padding-left: 8%;
-  font-family: 'Barlow', sans-serif;
-  color: transparent;
-	font-size: 65px;
-	-webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: #9c89b8;
-}
 
-.wongphatarakulMeaning{
-  padding-left: 8%;
-  font-family: 'Barlow', sans-serif;
-  color: #9c89b8;
-	font-size: 32px;
-  font-weight: 500;
-}
-
-[slide-in-from] {
-  opacity: 0;
-  transform: translateY(var(--translateY,0)) translateX(var(--translateX, 0));
-  animation: slideInFrom var(--sif-duration, 800ms) var(--sif-timing, ease-out) var(--sif-delay, 0ms) forwards;
-}
-
-[slide-in-from $= "left"] {--translateX: -100% }
-
-@keyframes slideInFrom{ 
-  to {transform: unset; opacity: unset}
-}
