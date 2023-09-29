@@ -1446,11 +1446,29 @@ div.full figure:not(.expanded) { pointer-events: none; }
   padding-right: 5%;
 }
 
+.portfolioLinkTitle{
+  font-family: 'Barlow', sans-serif;
+  color: transparent;
+	font-size: 80px;
+	-webkit-text-stroke-width: 3.3px;
+  -webkit-text-stroke-color: #9c89b8;
+  text-align: center;
+}
+
 .portfolioAlign{
   display: flex;
   justify-content: center;
-  padding-top: 2%;
-  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.portfolioCaption{
+  font-family: 'Barlow', sans-serif;
+  color: #9c89b8;
+	font-size: 200%;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 
